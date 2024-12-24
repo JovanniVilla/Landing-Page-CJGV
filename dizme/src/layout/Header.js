@@ -6,33 +6,33 @@ const Header = ({ logo }) => {
           <div className="logo">
             <a href="#">
               {logo && (
-                <img src={logo ? logo : "img/logo/logo.png"} alt="image" />
+                <img src={logo ? logo : "img/logo/logo.png"} alt="image logo" />
               )}
             </a>
           </div>
           <div className="menu">
             <ul className="anchor_nav">
               <li className="current">
-                <a href="#home">Home</a>
+                <a href="#home">Inicio</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about">Acerca de mi</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">Portafolio</a>
               </li>
               <li>
-                <a href="#service">Service</a>
+                <a href="#service">Servicios</a>
               </li>
               <li>
                 <a href="#blog">Blog</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact">Contacto</a>
               </li>
               <li className="download_cv">
                 <a href="img/cv/1.jpg" download="">
-                  <span>Download CV</span>
+                  <span>Descargar CV</span>
                 </a>
               </li>
             </ul>

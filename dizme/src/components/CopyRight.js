@@ -6,7 +6,7 @@ const CopyRight = ({ brandName }) => {
           <div className="inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <p>
-                Developed with love by{" "}
+                Desarrollo con pasion by{" "}
                 <a
                   href="https://themeforest.net/user/codeefly"
                   target="_blank"
@@ -23,7 +23,7 @@ const CopyRight = ({ brandName }) => {
                   <a href="#">{`Terms & Condition`}</a>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <a href="#">Politica de privacidad</a>
                 </li>
               </ul>
             </div>

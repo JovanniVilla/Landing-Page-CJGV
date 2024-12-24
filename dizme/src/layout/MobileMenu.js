@@ -29,22 +29,22 @@ const MobileMenu = ({ logo }) => {
           <ul className="anchor_nav">
             <li className="current">
               <a href="#home" onClick={() => setToggle(false)}>
-                Home
+                Inicio
               </a>
             </li>
             <li>
               <a onClick={() => setToggle(false)} href="#about">
-                About
+                Acerca de mi
               </a>
             </li>
             <li>
               <a onClick={() => setToggle(false)} href="#portfolio">
-                Portfolio
+                Portafolio
               </a>
             </li>
             <li>
               <a onClick={() => setToggle(false)} href="#service">
-                Service
+                Servicios
               </a>
             </li>
             <li>
@@ -54,12 +54,12 @@ const MobileMenu = ({ logo }) => {
             </li>
             <li>
               <a onClick={() => setToggle(false)} href="#contact">
-                Contact
+                Contacto
               </a>
             </li>
             <li className="download_cv">
               <a href="img/cv/1.jpg" download="">
-                <span>Download CV</span>
+                <span>Descargar CV</span>
               </a>
             </li>
           </ul>

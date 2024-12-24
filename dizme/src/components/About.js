@@ -14,9 +14,9 @@ const About = ({ dark }) => {
                       <Counter end={18} />
                     </h3>
                     <span className="name">
-                      Years of
+                      Años de 
                       <br />
-                      Success
+                      Exito
                     </span>
                   </div>
                 </div>
@@ -37,7 +37,7 @@ const About = ({ dark }) => {
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
                 <span>{`I'm a Designer`}</span>
-                <h3>I Can Design Anything You Want</h3>
+                <h3>Puedo desarrollar cualquier proyecto que puedas imaginar</h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
@@ -54,7 +54,8 @@ const About = ({ dark }) => {
                 data-wow-duration="1s"
               >
                 <a className="anchor" href="#contact">
-                  <span>Hire Me</span>
+                  <span>Contactame
+                  </span>
                 </a>
               </div>
             </div>

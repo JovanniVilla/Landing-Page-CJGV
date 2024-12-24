@@ -21,11 +21,11 @@ const Skills = ({ dark }) => {
                 data-wow-duration="1s"
                 data-align="left"
               >
-                <span>Design is Life</span>
-                <h3>I Develop Skills Regularly to Keep Me Update</h3>
+                <span>El desarrollo es una Experiencia unica</span>
+                <h3>Constantemente trabajo en mis habilidades para conocer las tecnologias mas eficientes y brindar mejores soluciones</h3>
                 <p>
-                  Most common methods for designing websites that work well on
-                  desktop is responsive and adaptive design
+                  Mi desarrollos estan orientados para realizar sitios web que funcionen correctamente en celulares asi como en computadoras
+                  realizando un diseño responsivo adaptandose a todo tipo de pantallas que existen en la actualidad.
                 </p>
               </div>
               <div

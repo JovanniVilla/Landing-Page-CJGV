@@ -27,11 +27,10 @@ const Testimonial = () => {
     <div className="dizme_tm_section">
       <div className="dizme_tm_testimonials">
         <div className="dizme_tm_main_title" data-align="center">
-          <span>Testimonials</span>
-          <h3>What My Clients Say</h3>
+          <span>Testimonios</span>
+          <h3>Que dicen mis clientes?</h3>
           <p>
-            Most common methods for designing websites that work well on desktop
-            is responsive and adaptive design
+            El metodo mas actual en el diseño de sitios web es pririzar el frist mobile pero el diseño deve estar orientado en fucionar correctamente en todo tipo de pantallas
           </p>
         </div>
         <div className="list_wrapper">
