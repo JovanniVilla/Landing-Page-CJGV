@@ -27,8 +27,8 @@ const Home = ({ dark }) => {
               </div>
               <div className="job">
                 <p>
-                  A <span className="greenText">{data && data.mainSkill}</span>{" "}
-                  From <span className="purpleText">{data.address}</span>
+                  Un <span className="greenText">{data && data.mainSkill}</span>{" "}
+                  desde <span className="purpleText">{data.address}</span>
                 </p>
               </div>
               <div className="text">
@@ -37,7 +37,7 @@ const Home = ({ dark }) => {
               <div className="button">
                 <div className="dizme_tm_button">
                   <a className="anchor" href="#about">
-                    <span>About Me</span>
+                    <span>Acerca de mi</span>
                   </a>
                 </div>
                 <div className="social">
