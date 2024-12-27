@@ -35,11 +35,11 @@ const Service = ({ dark }) => {
       <div className="dizme_tm_services">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Services</span>
-            <h3>What I Do for Clients</h3>
+            <span>Servicios</span>
+            <h3>Qué hago por los clientes</h3>
             <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
+            El Método más actual para diseñar sitios web que funcionen bien en
+            El escritorio y celulares tiene un diseño responsivo y adaptable.
             </p>
           </div>
           <div className="service_list">
@@ -76,7 +76,7 @@ const Service = ({ dark }) => {
                           <div className="title">
                             <h3>{data.title}</h3>
                             <span className="price">
-                              Starts from <span>${data.price}</span>
+                              Inicia desde: <span>${data.price}</span>
                             </span>
                           </div>
                           <div className="text">
