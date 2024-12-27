@@ -11,10 +11,10 @@ const About = ({ dark }) => {
                 <div className="numbers year">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={18} />
+                      <Counter end={26} />
                     </h3>
                     <span className="name">
-                      Años de 
+                      Meses de 
                       <br />
                       Exito
                     </span>
@@ -23,12 +23,12 @@ const About = ({ dark }) => {
                 <div className="numbers project">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={9} />K
+                      +<Counter end={10} />
                     </h3>
                     <span className="name">
-                      Total
+                      Proyectos
                       <br />
-                      Projects
+                      Exitosos
                     </span>
                   </div>
                 </div>
@@ -36,17 +36,17 @@ const About = ({ dark }) => {
             </div>
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
-                <span>{`I'm a Designer`}</span>
+                <span>{`Soy un Web-Dev`}</span>
                 <h3>Puedo desarrollar cualquier proyecto que puedas imaginar</h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
-                  {`Hello there! I'm a web designer, and I'm very passionate and
-                  dedicated to my work. With 20 years experience as a
-                  professional web developer, I have acquired the skills and
-                  knowledge necessary to make your project a success. I enjoy
-                  every step of the design process, from discussion and
-                  collaboration.`}
+                  {`¡Hola! Soy desarrollador y diseñador web, soy muy apasionado y
+                  me encanta mi trabajo. Con 2 años de experiencia como
+                  desarrollador web profesional, he adquirido las habilidades y
+                  Conocimientos necesarios para que su proyecto sea un éxito. disfruto
+                  cada paso del proceso de diseño, y desarrollo desde la discusión inicial 
+                  pasando por la colaboracion hasta la entrega final.`}
                 </p>
               </div>
               <div
