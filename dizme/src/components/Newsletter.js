@@ -17,16 +17,16 @@ const Newsletter = () => {
               </div>
               <div className="content">
                 <div className="left wow fadeInLeft" data-wow-duration="1s">
-                  <span className="subtitle">Subscribe Now</span>
-                  <h3 className="title">Get My Newsletter</h3>
+                  <span className="subtitle">Recibe informacion relevante</span>
+                  <h3 className="title">Puedes consultar informacion</h3>
                   <p className="text">
-                    Get latest news, updates, tips and trics in your inbox
+                    Obten las ultimas noticias, actualizaciones, tips & trucos gratis.
                   </p>
                 </div>
                 <div className="right wow fadeInRight" data-wow-duration="1s">
                   <div className="field">
-                    <input type="text" placeholder="Your email here" />
-                    <input type="submit" defaultValue="Send Now" />
+                    <input type="text" placeholder="Escribe tu email" />
+                    <input type="submit" defaultValue="Enviar" />
                   </div>
                 </div>
               </div>

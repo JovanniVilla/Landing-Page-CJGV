@@ -10,11 +10,11 @@ const Contact = () => {
       <div className="dizme_tm_contact">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Contact Me</span>
-            <h3>I Want To Hear From You</h3>
+            <span>Contacto</span>
+            <h3>Dime como te puedo apoyar</h3>
             <p>
-              Please fill out the form on this section to contact with me. Or
-              call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
+              Por favor complete el formulario en esta sección para contactar conmigo. O
+              llamar entre las 9:00 a.m. y las 8:00 p.m. de lunes a viernes.
             </p>
           </div>
           <div className="contact_inner">
@@ -27,7 +27,7 @@ const Contact = () => {
                         <i className="icon-location orangeText" />
                       </div>
                       <div className="short">
-                        <h3>Address</h3>
+                        <h3>Domicilio</h3>
                         <span>{data.contact.address}</span>
                       </div>
                     </div>
@@ -51,7 +51,7 @@ const Contact = () => {
                         <i className="icon-phone purpleText" />
                       </div>
                       <div className="short">
-                        <h3>Phone</h3>
+                        <h3>Telefono</h3>
                         <span>{data.contact.phn}</span>
                       </div>
                     </div>
@@ -73,42 +73,42 @@ const Contact = () => {
                     data-success="Your message has been received, We will contact you soon."
                   />
                   <div className="empty_notice">
-                    <span>Please Fill Required Fields</span>
+                    <span>Estos compos son requeridos*</span>
                   </div>
                   <div className="input_list">
                     <ul>
                       <li>
-                        <input id="name" type="text" placeholder="Your Name" />
+                        <input id="name" type="text" placeholder="Nombre" />
                       </li>
                       <li>
                         <input
                           id="email"
                           type="text"
-                          placeholder="Your Email"
+                          placeholder="Ejem: juan@gmail.com"
                         />
                       </li>
                       <li>
                         <input
                           id="phone"
                           type="number"
-                          placeholder="Your Phone"
+                          placeholder="33 1340 3014"
                         />
                       </li>
                       <li>
-                        <input id="subject" type="text" placeholder="Subject" />
+                        <input id="subject" type="text" placeholder="Asunto" />
                       </li>
                     </ul>
                   </div>
                   <div className="message_area">
                     <textarea
                       id="message"
-                      placeholder="Write your message here"
+                      placeholder="Aqui puedes escibir tu mensaje..."
                       defaultValue={""}
                     />
                   </div>
                   <div className="dizme_tm_button">
                     <a id="send_message" href="#">
-                      <span>Submit Now</span>
+                      <span>Enviar</span>
                     </a>
                   </div>
                 </form>
