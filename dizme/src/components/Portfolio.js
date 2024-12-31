@@ -64,7 +64,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("*")}`}
                   onClick={handleFilterKeyChange("*")}
                 >
-                  All
+                  Todos
                 </a>
               </li>
               <li>
@@ -77,10 +77,10 @@ const Portfolio = () => {
               </li>
               <li>
                 <a
-                  className={`c-pointer ${activeBtn("vimeo")}`}
-                  onClick={handleFilterKeyChange("vimeo")}
+                  className={`c-pointer ${activeBtn("mago")}`}
+                  onClick={handleFilterKeyChange("mago")}
                 >
-                  Vimeo
+                  Mago-Fas
                 </a>
               </li>
               <li>
@@ -116,22 +116,22 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Mockup Shape"
+                    data-title="Proyectos"
                     data-category="Youtube"
                   >
                     <a
                       className="popup-youtube"
-                      href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"
+                      href="https://www.youtube.com/embed/RXCGU7cHPls?autoplay=1"
                     >
                       <img src="img/thumbs/42-56.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/1.jpg"
+                        data-img-url="img/portfolio/1.png"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Mockup Shape</h3>
+                    <h3>Intro</h3>
                     <span>Youtube</span>
                   </div>
                 </div>
@@ -140,23 +140,23 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Ave Bottle"
-                    data-category="Vimeo"
+                    data-title="Mago"
+                    data-category="mago"
                   >
                     <a
                       className="popup-vimeo"
-                      href="https://player.vimeo.com/video/337293658?autoplay=1"
+                      href="https://www.youtube.com/embed/1GGPkcEUvfg?autoplay=1"
                     >
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/2.jpg"
+                        data-img-url="img/portfolio/2.png"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Ave Bottle</h3>
-                    <span>Vimeo</span>
+                    <h3>MAGO</h3>
+                    <span>Gameplay</span>
                   </div>
                 </div>
               </li>
@@ -221,7 +221,7 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Art Stone</h3>
+                    <h3>Art </h3>
                     <span>Popup</span>
                   </div>
                 </div>
@@ -243,8 +243,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Global Evolution</h3>
-                    <span>Detail</span>
+                    <h3>Evolucion Global</h3>
+                    <span>Detalles</span>
                   </div>
                 </div>
               </li>
