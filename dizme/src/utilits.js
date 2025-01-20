@@ -38,10 +38,10 @@ export const customCursor = () => {
     t = document.querySelector(".cursor-outer");
 
   function mouseEvent(element) {
-    ReactDOM.findDOMNode(element).addEventListener("mouseenter", function () {
+    ReactDOM.ref(element).addEventListener("mouseenter", function () {
       e.classList.add("cursor-hover"), t.classList.add("cursor-hover");
     });
-    ReactDOM.findDOMNode(element).addEventListener("mouseleave", function () {
+    ReactDOM.ref(element).addEventListener("mouseleave", function () {
       e.classList.remove("cursor-hover"), t.classList.remove("cursor-hover");
     });
   }
@@ -94,7 +94,7 @@ export const aTagClick = () => {
   const aTag = document.querySelectorAll("[href='#']");
   for (let i = 0; i < aTag.length; i++) {
     const a = aTag[i];
-    ReactDOM.findDOMNode(a).addEventListener("click", (e) => {
+    ReactDOM.ref(a).addEventListener("click", (e) => {
       e.preventDefault();
     });
   }
